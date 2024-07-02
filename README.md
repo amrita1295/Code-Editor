@@ -30,6 +30,7 @@ To run this project locally, follow these steps:
     ```
     npm run start
   4. Open http://localhost:3000 to view it in the browser.
+  ![image](https://github.com/amrita1295/Code-Editor/assets/56605853/a38972b1-6e6c-4147-b09b-191bddd40a60)
 
   ## Usage
   1. Modify the CodeEditor component in src/App.js to suit your requirements.
