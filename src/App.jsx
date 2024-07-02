@@ -31,9 +31,10 @@ const CodeEditor = () => {
     <div className="code-editor">
       <select value={language} onChange={handleLanguageChange}>
         <option value="javascript">JavaScript</option>
-        <option value="python">Python</option>
         <option value="java">Java</option>
+        <option value="python">Python</option>
         <option value="c">C</option>
+        <option value="c++">C++</option>
       </select>
       <div className="editor-wrapper">
         <textarea
