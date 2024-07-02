@@ -4,7 +4,7 @@ A simple code editor built with React and Prism JS for syntax highlighting.
 
 ## Demo
 
-You can see a live demo [here](#).
+You can see a live demo.
 
 ## Features
 
