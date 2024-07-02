@@ -1,0 +1,112 @@
+.code-editor {
+  font-family: 'Fira Code', monospace;
+  line-height: 1.5;
+  color: #ddd;
+  text-align: center;
+}
+
+.code-editor select {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.editor-wrapper {
+  position: relative;
+  margin: auto;
+  width: 70%;
+  height: 300px; /* Adjust the height as needed */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #282c34;
+  overflow: hidden; /* Prevents the pre element from overflowing */
+}
+
+
+.editor-wrapper textarea,
+.editor-wrapper pre {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  border: none;
+  outline: none;
+  resize: none;
+  background: none;
+  font-family: inherit;
+  line-height: inherit;
+  color: transparent; /* Hides the textarea content */
+  caret-color: white;/* Color of the caret */
+  
+}
+
+.editor-wrapper pre {
+  pointer-events: none; /* Allows textarea interaction only */
+  overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+/* Customize Prism.js syntax highlighting */
+.language-javascript .token.property,
+.language-javascript .token.tag,
+.language-javascript .token.boolean,
+.language-javascript .token.number,
+.language-javascript .token.constant,
+.language-javascript .token.symbol,
+.language-javascript .token.selector,
+.language-javascript .token.atrule,
+.language-javascript .token.keyword,
+.language-javascript .token.operator,
+.language-javascript .token.punctuation {
+  color: #f92672;
+}
+
+.language-javascript .token.function,
+.language-javascript .token.class-name,
+.language-javascript .token.char {
+  color: #a6e22e;
+}
+
+.language-javascript .token.string,
+.language-javascript .token.attr-value {
+  color: #e6db74;
+}
+
+.language-java .token.class-name,
+.language-java .token.function {
+  color: #a6e22e;
+}
+
+.language-java .token.keyword,
+.language-java .token.operator {
+  color: #f92672;
+}
+
+.language-python .token.keyword {
+  color: #f92672;
+}
+
+.language-python .token.string {
+  color: #e6db74;
+}
+
+.language-c .token.keyword {
+  color: #f92672;
+}
+
+.language-c .token.string {
+  color: #e6db74;
+}
+
+.language-cpp .token.keyword {
+  color: #f92672;
+}
+
+.language-cpp .token.string {
+  color: #e6db74;
+}
