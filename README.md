@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
  3. Start the development server:
 
     ```
-    npm start
+    npm run start
   4. Open http://localhost:3000 to view it in the browser.
 
   ## Usage
@@ -39,7 +39,7 @@ To run this project locally, follow these steps:
   Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
   ## License
-  This project is licensed under the MIT License - see the LICENSE file for details.
+  This project is licensed under the MIT License .
   
 
     
